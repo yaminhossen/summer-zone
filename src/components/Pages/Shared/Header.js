@@ -27,7 +27,7 @@ const Header = () => {
                     <a className="btn btn-ghost normal-case text-xl ml-24 font-bold">Summer-Zone</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1 font-bold">
+                    <ul className="menu menu-horizontal px-1 text-lg">
                         <li tabIndex={0}>
                             <a>
                                 Men

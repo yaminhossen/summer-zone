@@ -1,11 +1,15 @@
 import './App.css';
+import { Route, Routes } from 'react-router-dom';
 import Header from './components/Pages/Shared/Header';
+import Home from './components/Pages/Home/Home';
 
 function App() {
   return (
     <div className="">
       <Header></Header>
-      <h1>Now all summer outfit in summer zone</h1>
+      <Routes>
+        <Route path='/' element={<Home></Home>}></Route>
+      </Routes>
     </div>
   );
 }

@@ -1,0 +1,17 @@
+#wmkbs {
+    /* border: 1px solid blue; */
+    padding: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 25px;
+}
+
+#wmkbs:hover {
+    padding: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 25px;
+    background-color: rgb(51, 39, 39);
+    color: white;
+    cursor: pointer;
+}

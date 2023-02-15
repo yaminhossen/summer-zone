@@ -4,7 +4,7 @@ import './Banner.css'
 const Banner = () => {
     return (
         <div className='bg-green-100 flex'>
-            <div className='lg:ml-24 pt-20 pb-20'>
+            <div className='lg:ml-28 pt-20 pb-20'>
                 <div className='bg-pink-400 w-12 h-12 rounded-full ml-96 mb-10
                 '></div>
                 <h2 className='text-2xl'>In this season find the best</h2>

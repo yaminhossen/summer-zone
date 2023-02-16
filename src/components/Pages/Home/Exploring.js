@@ -1,4 +1,5 @@
 import React from 'react';
+import ExploreItems from './ExploreItems';
 import './Exploring.css'
 
 const Exploring = () => {
@@ -13,6 +14,7 @@ const Exploring = () => {
                 <p id='wmkbs'>Beauty</p>
                 <p id='wmkbs'>Sports</p>
             </div>
+            <ExploreItems></ExploreItems>
         </div>
     );
 };

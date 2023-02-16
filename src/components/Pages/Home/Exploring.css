@@ -94,3 +94,77 @@
 
     border-radius: 50%;
 }
+
+.kids {
+    margin-top: -300px;
+
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    margin-left: 0px;
+    background-color: rgb(80, 247, 127);
+
+    border-radius: 50%;
+}
+
+.circle1 {
+    width: 30px;
+    height: 30px;
+    margin-left: 0px;
+    background-color: rgb(247, 80, 169);
+
+    border-radius: 50%;
+}
+
+.circle2 {
+    width: 15px;
+    height: 15px;
+    margin-top: 10px;
+    border: 2px solid slateblue;
+    /* background-color: rgb(247, 80, 169); */
+
+    border-radius: 50%;
+}
+
+.circle4 {
+    width: 15px;
+    height: 15px;
+    margin-left: 60px;
+    /* border: 2px solid slateblue; */
+    background-color: rgb(241, 199, 46);
+
+    border-radius: 50%;
+}
+
+.circle5 {
+    width: 25px;
+    height: 25px;
+    margin-left: 300px;
+    /* border: 2px solid slateblue; */
+    background-color: rgb(252, 172, 42);
+
+    border-radius: 50%;
+}
+
+.circle6 {
+    width: 15px;
+    height: 15px;
+    margin-left: 450px;
+    margin-top: 40px;
+    background-color: rgba(243, 47, 122, 0.621);
+
+    border-radius: 50%;
+}
+
+.circle7 {
+    width: 15px;
+    height: 15px;
+    margin-top: 180px;
+    margin-left: 150px;
+    /* border: 2px solid slateblue; */
+    background-color: rgb(243, 194, 47);
+
+    border-radius: 50%;
+}

@@ -5,6 +5,7 @@ import ExpertChose from './ExpertChose';
 import Exploring from './Exploring';
 import KidsOffer from './KidsOffer';
 import NewArivals from './NewArivals';
+import Offers from './Offers';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <Exploring></Exploring>
             <KidsOffer></KidsOffer>
             <ExpertChose></ExpertChose>
+            <Offers></Offers>
         </div>
     );
 };

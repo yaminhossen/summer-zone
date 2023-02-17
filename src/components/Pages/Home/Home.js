@@ -1,5 +1,6 @@
 import React from 'react';
 import Banner from './Banner';
+import DepartmentShop from './DepartmentShop';
 import Discover from './Discover';
 import ExpertChose from './ExpertChose';
 import Exploring from './Exploring';
@@ -16,6 +17,7 @@ const Home = () => {
             <Exploring></Exploring>
             <KidsOffer></KidsOffer>
             <ExpertChose></ExpertChose>
+            <DepartmentShop></DepartmentShop>
             <Offers></Offers>
         </div>
     );

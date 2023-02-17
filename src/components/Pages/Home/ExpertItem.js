@@ -11,17 +11,17 @@ const ExpertItem = ({ item }) => {
                     </div>
                 </div>
                 <div className='grid grid-cols-3 gap-3 mt-3'>
-                    <div className='flex justify-center items-center bg-slate-100 rounded-3xl'>
+                    <div className='flex justify-center items-center bg-slate-100 rounded-2xl'>
                         <div className='w-auto p-3'>
                             <img className='' src={img} alt="" />
                         </div>
                     </div>
-                    <div className='flex justify-center items-center bg-slate-100 rounded-3xl'>
+                    <div className='flex justify-center items-center bg-slate-100 rounded-2xl'>
                         <div className='w-auto p-3'>
                             <img className='' src={img} alt="" />
                         </div>
                     </div>
-                    <div className='flex justify-center items-center bg-slate-100 rounded-3xl'>
+                    <div className='flex justify-center items-center bg-slate-100 rounded-2xl'>
                         <div className='w-auto p-3'>
                             <img className='' src={img} alt="" />
                         </div>

@@ -169,6 +169,51 @@
     border-radius: 50%;
 }
 
+.circleA {
+    width: 30px;
+    height: 30px;
+    margin-left: 280px;
+    margin-bottom: 50px;
+    background-color: rgb(235, 79, 206);
+    border-radius: 50%;
+}
+
+.circleB {
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+    background-color: rgb(79, 235, 118);
+    border-radius: 50%;
+}
+
+.circleC {
+    width: 25px;
+    height: 25px;
+    margin-left: 390px;
+    background-color: rgb(246, 49, 69);
+    border-radius: 50%;
+}
+
+.circleD {
+    width: 25px;
+    height: 25px;
+    margin-left: 500px;
+    margin-top: -55px;
+    margin-bottom: 30px;
+    background-color: rgba(245, 37, 82, 0.768);
+    border-radius: 50%;
+}
+
+.circleE {
+    width: 25px;
+    height: 25px;
+    margin-left: 400px;
+    margin-top: 100px;
+    background-color: rgb(246, 177, 49);
+    border-radius: 50%;
+}
+
 .man {
-    margin-top: -80px;
+    margin-top: -190px;
 }

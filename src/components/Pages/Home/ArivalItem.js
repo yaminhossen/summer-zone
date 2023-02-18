@@ -1,10 +1,12 @@
 import React from 'react';
 
 const ArivalItem = ({ arrive }) => {
-    const { img, name, info, price } = arrive;
+    const { img, name, info, price, bgClass } = arrive;
     return (
         <div>
-            <div className='p-10 rounded-3xl bg-slate-100'><img className=' ' src={img} alt="" /></div>
+            <div className={`h-96 p-8 rounded-3xl ${bgClass}`}>
+                <img className=' p-' src={img} alt="" />
+            </div>
             <div className='pl-4'>
                 <h3 className=' text-2xl text-slate-700 font-bold mt-6'>{name}</h3>
                 <h4 className='text-slate-500 font-bold mb-4'>{info}</h4>

@@ -1,11 +1,13 @@
 import React from 'react';
 import tshirt from '../../../images/discover/yellow shirt.png'
+import discover1 from '../../../images/discover/discover (1).png'
+import discover2 from '../../../images/discover/discover (2).png'
 import DiscoverItem from './DiscoverItem';
 
 const items = [
-    { id: 1, title: 'Explore new arrivals', info: 'Shop the latest from top brands', img: tshirt },
-    { id: 2, title: 'Digital gift cards', info: 'Give the gift of choice', img: tshirt },
-    { id: 3, title: 'Sale collection', info: 'Up to 80% off retail', img: tshirt },
+    { id: 1, title: 'Explore new arrivals', info: 'Shop the latest from top brands', img: discover1, bgClass: 'bg-pink-100' },
+    { id: 2, title: 'Digital gift cards', info: 'Give the gift of choice', img: discover2, bgClass: 'bg-red-100' },
+    { id: 3, title: 'Sale collection', info: 'Up to 80% off retail', img: tshirt, bgClass: 'bg-yellow-100' },
 ]
 const Discover = () => {
 

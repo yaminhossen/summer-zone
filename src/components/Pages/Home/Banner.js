@@ -3,7 +3,7 @@ import banner from '../../../images/banner/sbanner2_prev_ui.png'
 import './Banner.css'
 const Banner = () => {
     return (
-        <div className='bg-green-100 flex'>
+        <div className='bg-green-100  flex'>
             <div className='lg:ml-28 pt-20 pb-20'>
                 <div className='bg-pink-400 w-12 h-12 rounded-full ml-96 mb-10
                 '></div>
@@ -15,7 +15,7 @@ const Banner = () => {
                 </button>
                 <div className='bg-red-400 w-6 h-6 rounded-full mt-2
                 '></div>
-                <div className='bg-green-500 w-14 h-14 rounded-full mt-6 ml-64
+                <div className='bg-green-500 w-12 h-12 rounded-full mt-6 ml-64
                 '></div>
             </div>
             <div>

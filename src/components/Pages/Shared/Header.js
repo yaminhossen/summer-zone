@@ -1,8 +1,8 @@
 import React from 'react';
-
+import logo1 from '../../../images/logo/logo1.png'
 const Header = () => {
     return (
-        <div >
+        <div className='sticky top-0' >
             <div className="navbar  bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -24,7 +24,7 @@ const Header = () => {
                             <li><a>Item 3</a></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl ml-20 font-bold ">Summer-Zone</a>
+                    <a className="btn btn-ghost normal-case text-xl ml-20 font-bold "><img className='w-7 mr-1' src={logo1} alt="" /> Summer-Zone</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 text-lg">

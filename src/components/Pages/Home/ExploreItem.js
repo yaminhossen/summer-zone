@@ -5,7 +5,7 @@ const ExploreItem = ({ item }) => {
     return (
         <div className='bg-white rounded-3xl'>
             <div className='flex m-6 justify-between items-center mb-16'>
-                <div className='w-20 p-4 bg-yellow-100  rounded-full'><img src={img} alt="" /></div>
+                <div className='w-20 h-28 p-4 bg-purple-100  rounded-full flex justify-center items-center'><img src={img} className='' alt="" /></div>
                 <p>{quant} products</p>
             </div>
             <div className='flex justify-between items-center mx-6 mb-6'>

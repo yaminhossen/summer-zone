@@ -1,5 +1,8 @@
 import React from 'react';
-import product from '../../../images/discover/yellow shirt.png'
+import travel from '../../../images/department/travel.png'
+import beauty from '../../../images/department/beauty.png'
+import sport from '../../../images/department/sport.png'
+import cycling from '../../../images/department/cycling.png'
 import DepartmentCard from './DepartmentCard';
 const DepartmentShop = () => {
     return (
@@ -7,26 +10,26 @@ const DepartmentShop = () => {
             <h2 className='mt-20 mb-12 text-4xl font-bold'>Shop by department</h2>
             <div className=' grid grid-cols-4 gap-4'>
                 <DepartmentCard
-                    img={product}
-                    bgClass='bg-blue-50'
+                    img={travel}
+                    bgClass='bg-blue-100'
                     title='Travel Kits'
                     quantity='20'
                 ></DepartmentCard>
                 <DepartmentCard
-                    img={product}
-                    bgClass='bg-slate-50'
+                    img={beauty}
+                    bgClass='bg-pink-100'
                     title='Beauty Products'
                     quantity='10'
                 ></DepartmentCard>
                 <DepartmentCard
-                    img={product}
-                    bgClass='bg-purple-50'
+                    img={sport}
+                    bgClass='bg-orange-100'
                     title='Sport Kits'
                     quantity='30'
                 ></DepartmentCard>
                 <DepartmentCard
-                    img={product}
-                    bgClass='bg-orange-50'
+                    img={cycling}
+                    bgClass='bg-red-100'
                     title='Cycling Kits'
                     quantity='40'
                 ></DepartmentCard>

@@ -1,29 +1,29 @@
 import React from 'react';
 
 const ExpertItem = ({ item }) => {
-    const { img, color, name, price } = item;
+    const { img1, img2, img3, img4, color, name, price } = item;
     return (
         <div>
             <div>
                 <div className='flex justify-center items-center bg-slate-100 rounded-3xl'>
-                    <div className='w-64 p-8'>
-                        <img className='' src={img} alt="" />
+                    <div className='w-64 py-16'>
+                        <img className='' src={img1} alt="" />
                     </div>
                 </div>
                 <div className='grid grid-cols-3 gap-3 mt-3'>
                     <div className='flex justify-center items-center bg-slate-100 rounded-2xl'>
                         <div className='w-auto p-3'>
-                            <img className='' src={img} alt="" />
+                            <img className='' src={img2} alt="" />
                         </div>
                     </div>
                     <div className='flex justify-center items-center bg-slate-100 rounded-2xl'>
                         <div className='w-auto p-3'>
-                            <img className='' src={img} alt="" />
+                            <img className='' src={img3} alt="" />
                         </div>
                     </div>
                     <div className='flex justify-center items-center bg-slate-100 rounded-2xl'>
                         <div className='w-auto p-3'>
-                            <img className='' src={img} alt="" />
+                            <img className='' src={img4} alt="" />
                         </div>
                     </div>
                 </div>

@@ -8,7 +8,7 @@ const exploreItems = [
     { quant: 142, quality: 'Manufacturar', name: 'Cycling Shorts', img: backpack, id: 3 },
     { quant: 233, quality: 'Manufacturar', name: 'Cycling Jersey', img: backpack, id: 4 },
     { quant: 241, quality: 'Manufacturar', name: 'Car Coat', img: backpack, id: 5 },
-    { quant: 151, quality: 'Manufacturar', name: 'Resycled Blanket', img: backpack, id: 6 },
+    { quant: 151, quality: 'Manufacturar', name: 'Recycled Blanket', img: backpack, id: 6 },
 
 ]
 const ExploreItems = () => {

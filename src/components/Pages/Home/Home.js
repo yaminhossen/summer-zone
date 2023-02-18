@@ -7,6 +7,7 @@ import Exploring from './Exploring';
 import KidsOffer from './KidsOffer';
 import NewArivals from './NewArivals';
 import Offers from './Offers';
+import Reviews from './Reviews';
 
 const Home = () => {
     return (
@@ -19,6 +20,7 @@ const Home = () => {
             <ExpertChose></ExpertChose>
             <DepartmentShop></DepartmentShop>
             <Offers></Offers>
+            <Reviews></Reviews>
         </div>
     );
 };

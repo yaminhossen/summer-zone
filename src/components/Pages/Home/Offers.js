@@ -3,10 +3,10 @@ import './Exploring.css'
 import man from '../../../images/banner/man.png'
 const Offers = () => {
     return (
-        <div className='mx-28 rounded-3xl bg-pink-50 flex my-32'>
-            <div className='w-2/4 flex items-center'>
-                <div className='ml-28'>
-                    <div className='circleA'></div>
+        <div className='mx-12 lg:mx-28 rounded-3xl bg-pink-50 flex my-32'>
+            <div className=' w-2/4 flex items-center'>
+                <div className='mx-6 lg:ml-28'>
+                    <div className='circleA hidden lg:block'></div>
                     <h3 className='text-5xl font-bold'>Don't miss out on special offers</h3>
                     <h2 className='font-bold mt-6 mb-7 text-slate-500'>Register to receive news about the latest, savings combos, discount codes...</h2>
                     <ul className='font-bold 
@@ -26,11 +26,11 @@ const Offers = () => {
                             </button>
                         </div>
                     </div>
-                    <div className='circleB'></div>
-                    <div className='circleC'></div>
+                    <div className='circleB '></div>
+                    <div className='circleC hidden lg:block'></div>
                 </div>
             </div>
-            <div className='w-2/4'>
+            <div className='w-2/4 hidden lg:block'>
                 <div className="circleE"></div>
                 <img className='w-4/5 man' src={man} alt="" />
                 <div className="circleD"></div>

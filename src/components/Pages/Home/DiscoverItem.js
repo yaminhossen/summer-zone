@@ -10,7 +10,7 @@ const DiscoverItem = ({ item }) => {
                 <button className='btn mt-12'>Show me all</button>
             </div>
             <div className=' w-3/6 p-5'>
-                <img className='h-full' src={img} alt="" />
+                <img className='h-40 lg:h-full' src={img} alt="" />
             </div>
         </div>
     );

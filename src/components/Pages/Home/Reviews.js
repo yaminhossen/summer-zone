@@ -34,7 +34,7 @@ const Reviews = () => {
             <h2 className='text-center text-gray-500 font-bold text-xl'>Let's see what peaple think of our services</h2>
             <div>
 
-                <div className='flex w-3/4 mx-auto py-12'>
+                <div className='flex lg:w-3/4 mx-auto py-12'>
                     <div className='w-2/6 hidden lg:block'>
                         <div className="card flex ava ">
                             <div className="avatar flex justify-end mr-8 mb-12">
@@ -62,7 +62,7 @@ const Reviews = () => {
                         </div>
 
                     </div>
-                    <div className="card md:w-5/6 sm:w-5/6 w-4/6">
+                    <div className="card md:w-5/6  lg:w-4/6">
                         <figure className="px-10 pt-10 avatar">
                             <div className="avatar online">
                                 <div className="w-32 rounded-full">
@@ -72,7 +72,7 @@ const Reviews = () => {
                         </figure>
                         <div className="card-body items-center text-center">
                             <p className='h-24 font-bold text-xl text-gray-500'>{second[seconds].des}</p>
-                            <h2 className="card-title font-bold text-2xl text-gray-700">Name: {second[seconds].name}</h2>
+                            <h2 className="card-title font-bold text-2xl text-gray-700 pt-6">Name: {second[seconds].name}</h2>
 
                             <div className=" mb-">
                                 <div className="rating">

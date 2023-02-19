@@ -6,9 +6,9 @@ import cycling from '../../../images/department/cycling.png'
 import DepartmentCard from './DepartmentCard';
 const DepartmentShop = () => {
     return (
-        <div className='mx-28'>
+        <div className='mx-12 lg:mx-28'>
             <h2 className='mt-20 mb-12 text-4xl font-bold'>Shop by department</h2>
-            <div className=' grid grid-cols-4 gap-4'>
+            <div className=' grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
                 <DepartmentCard
                     img={travel}
                     bgClass='bg-blue-100'

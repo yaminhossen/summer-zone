@@ -4,7 +4,7 @@ const ArivalItem = ({ arrive }) => {
     const { img, name, info, price, bgClass } = arrive;
     return (
         <div>
-            <div className={`h-96 p-8 rounded-3xl ${bgClass}`}>
+            <div className={`h-96 p-8 flex justify-center rounded-3xl ${bgClass}`}>
                 <img className=' p-' src={img} alt="" />
             </div>
             <div className='pl-4'>

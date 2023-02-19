@@ -19,9 +19,9 @@ const expertItems = [
 ]
 const ExpertChose = () => {
     return (
-        <div className='mx-28 mb-16'>
+        <div className='mx-12 lg:mx-28 mb-16'>
             <h2 className='text-4xl font-bold mb-16'>Chosen By Our Experts. <span className='text-4xl font-bold text-gray-500'>What best for you</span></h2>
-            <div className='grid grid-cols-3 gap-6
+            <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6
             '>
                 {
                     expertItems.map(item => <ExpertItem

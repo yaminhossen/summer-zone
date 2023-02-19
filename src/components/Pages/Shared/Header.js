@@ -24,7 +24,12 @@ const Header = () => {
                             <li><a>Item 3</a></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl ml-20 font-bold "><img className='w-7 mr-1' src={logo1} alt="" /> Summer-Zone</a>
+                    <div className='my-4'>
+                        <div className='lg:ml-28 ml-2 flex items-center'>
+                            <div><img className='w-7' src={logo1} alt="" /></div>
+                            <div className='font-bold pl-1 text-xl'>Summer-zone</div>
+                        </div>
+                    </div>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 text-lg">
@@ -44,7 +49,7 @@ const Header = () => {
                         <li><a>Beauty</a></li>
                     </ul>
                 </div>
-                <div className="navbar-end mr-24">
+                <div className="navbar-end lg:mr-24">
                     <a className="pr-8"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
                     </svg>

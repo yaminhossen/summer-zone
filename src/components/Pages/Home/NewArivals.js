@@ -10,9 +10,9 @@ const arrialItems = [
 ]
 const NewArivals = () => {
     return (
-        <div className='mx-28 mb-12'>
+        <div className='mx-12 lg:mx-28 mb-12'>
             <h2 className='text-4xl font-bold'>New Arrivals. <span className='text-4xl font-bold text-gray-500'>REY backpacks & bags</span></h2>
-            <div className='mt-16 grid grid-cols-4 gap-6'>
+            <div className='mt-16 grid md:grid-cols-2 lg:grid-cols-4 gap-6'>
                 {
                     arrialItems.map(arrive => <ArivalItem
                         key={arrive.id}

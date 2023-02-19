@@ -17,8 +17,8 @@ const exploreItems = [
 ]
 const ExploreItems = () => {
     return (
-        <div className='mt-16 mx-28'>
-            <div className='grid grid-cols-3 gap-6'>
+        <div className='mt-16 mx-12 lg:mx-28'>
+            <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
                 {exploreItems.map(item => <ExploreItem
                     key={item.id}
                     item={item}

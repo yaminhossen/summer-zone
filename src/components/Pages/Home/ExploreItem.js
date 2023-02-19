@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Exploring.css'
 const ExploreItem = ({ item }) => {
     const { img, name, quality, quant } = item;
@@ -12,10 +13,10 @@ const ExploreItem = ({ item }) => {
                 <div>
                     <h2 className='font-semibold text-slate-400'>{quality}</h2>
                     <h2 className='text-3xl font-bold mb-12'>{name}</h2>
-                    <p className=' bg-white text-slate-400 border-none hover:cursor-pointer hover:text-yellow-400 hover:font-bold  inline '>See Collection<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 ml-1 inline">
+                    <Link to="/allItem" className=' bg-white text-slate-400 border-none hover:cursor-pointer hover:text-yellow-400 hover:font-bold  inline '>See Collection<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 ml-1 inline">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
                     </svg>
-                    </p>
+                    </Link>
                 </div>
                 <div>
                     <div className='dot'></div>

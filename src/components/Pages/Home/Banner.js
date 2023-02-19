@@ -18,7 +18,7 @@ const Banner = () => {
                 <div className='bg-green-500 w-12 h-12 rounded-full mt-6 ml-64
                 '></div>
             </div>
-            <div className='mx-12'>
+            <div className='mx-12 hidden lg:block'>
                 <div className='bg-purple-400 w-7 h-7 rounded-full mt-6 ml-60
                 '></div>
                 <img className='banner' src={banner} alt="" />

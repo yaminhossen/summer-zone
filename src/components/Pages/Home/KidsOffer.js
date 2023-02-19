@@ -27,7 +27,7 @@ const KidsOffer = () => {
                         <div className='flex justify-between w-2/4'>
                             <div className="circle mt-6"></div>
                             <div className="circle2 mt-12"></div>
-                            <div className="circle1 mt-12"></div>
+                            <div className="circle1 mt-12 hidden lg:block"></div>
                         </div>
                     </div>
                 </div>

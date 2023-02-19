@@ -115,7 +115,8 @@
     margin-left: 0px;
     background-color: rgb(247, 80, 169);
 
-    border-radius: 50%;
+    border-radius: 15%;
+    transform: rotate(30deg)
 }
 
 .circle2 {
@@ -145,7 +146,8 @@
     /* border: 2px solid slateblue; */
     background-color: rgb(252, 172, 42);
 
-    border-radius: 50%;
+    border-radius: 15%;
+    transform: rotate(30deg)
 }
 
 .circle6 {

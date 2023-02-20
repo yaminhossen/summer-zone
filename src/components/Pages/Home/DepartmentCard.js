@@ -3,7 +3,7 @@ import React from 'react';
 const DepartmentCard = ({ img, bgClass, title, quantity }) => {
     return (
         <div className='text-center'>
-            <div className={`flex justify-center items-center rounded-3xl h-80 lg:h-96 ${bgClass}`}>
+            <div className={`flex justify-center items-center rounded-3xl  h-80 lg:h-96 ${bgClass}`}>
                 <div className='p-2'>
                     <img src={img} alt="" />
                 </div>

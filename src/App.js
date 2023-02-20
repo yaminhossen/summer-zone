@@ -7,12 +7,16 @@ import Login from './components/Pages/Registration/Login';
 import SignUp from './components/Pages/Registration/SignUp';
 import Dashboard from './components/Pages/Dashboard/Dashboard';
 import AllItems from './components/Pages/Home/AllItems';
+import ScrollToTop from './components/Pages/Home/ScrollToTop';
 
 function App() {
   return (
     <div className="">
       <Header></Header>
+      <ScrollToTop />
       <Routes>
+
+
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
         <Route path='/allItem' element={<AllItems></AllItems>}></Route>

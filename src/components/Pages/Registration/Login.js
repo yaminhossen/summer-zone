@@ -26,7 +26,9 @@ const Login = () => {
     if (loading) {
         return <Loading></Loading>
     }
-
+    // console.log(user?._tokenResponse.email
+    // );
+    // console.log(user);
 
     const handleSignIn = event => {
         event.preventDefault();

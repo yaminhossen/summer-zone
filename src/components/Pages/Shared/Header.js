@@ -10,6 +10,7 @@ const Header = () => {
     const handleSignOut = () => {
         signOut(auth);
     }
+    console.log(user?.displayName);
     return (
         <div className='sticky top-0 ' >
             <div className="navbar  bg-base-100">
@@ -49,6 +50,12 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className="navbar-end lg:mr-24">
+                    {
+                        user ?
+                            <button className='pr-8 font-bold text-slate-500' >{user?.email}</button>
+                            :
+                            <Link className='pr-8 font-bold text-slate-500' to="/login">Jai ni</Link>
+                    }
                     {
                         user ?
                             <button className='pr-8 font-bold text-slate-500' onClick={handleSignOut}>SignOut</button>

@@ -1,13 +1,22 @@
 import React from 'react';
+import './AllItem.css'
+import { Link } from 'react-router-dom'
 
 const AllItem = ({ item }) => {
     const { img, info, name, price, } = item;
     return (
-        <div className='mt-12'>
-            <div className='bg-blue-100 flex justify-center items-center p-2 h-96 rounded-3xl'>
-                <img src={img} alt="" />
+        <div className='mt-12 frame3'>
+            <div className=''>
+                <div className=' bg-blue-100 flex justify-center items-center p-2 h-96 rounded-3xl  '>
+                    <img src={img} alt="" />
+                </div>
+                <div className='button3 flex justify-between p-2'>
+                    <Link to="/dashboard" className='btn' >Add to Cart</Link>
+                    <Link to="/dashboard" className='btn'>Buy Now</Link>
+
+                </div>
             </div>
-            <div className='pl-4'>
+            <div className='pl-4 info3'>
                 <h3 className=' text-xl text-slate-700 font-bold mt-4'>{name}</h3>
                 <h4 className='text-slate-500 font-bold mb-4'>{info}</h4>
                 <div className='flex justify-between'>

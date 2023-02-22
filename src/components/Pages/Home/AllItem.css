@@ -1,0 +1,13 @@
+.button3 {
+    display: none;
+}
+
+.frame3:hover .info3 {
+    display: none;
+}
+
+.frame3:hover .button3 {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+}

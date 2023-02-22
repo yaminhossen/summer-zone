@@ -11,6 +11,8 @@ const SocialLogin = () => {
     if (error) {
         gerror = <p className='text-red-500'>{error.message}</p>
     }
+    // console.log(user);
+    // console.log(user?._tokenResponse?.email);
     return (
         <div >
             {gerror}

@@ -1,15 +1,46 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import auth from '../../../firebase.init';
 import SocialLogin from './SocialLogin';
+import Loading from '../Shared/Loading';
 
 const SignUp = () => {
+
+    const [
+        createUserWithEmailAndPassword,
+        user,
+        loading,
+        error,
+    ] = useCreateUserWithEmailAndPassword(auth);
+
+    const navigate = useNavigate();
+
+    if (user) {
+        navigate('/')
+    }
+
+    if (loading) {
+        return <Loading></Loading>
+    }
+
+    const handleSignUp = event => {
+        event.preventDefault();
+        const name = event.target.name.value;
+        const email = event.target.email.value;
+        const password = event.target.password.value;
+        console.log(name, email, password);
+        createUserWithEmailAndPassword(email, password);
+
+    }
+
     return (
         <div>
             <div className='w-3/4 my-6 rounded-xl  bg-gray-300 mx-auto'>
                 <h2 className='my-12 pt-8 text-center font-bold text-2xl text-gray-500'>SignUp</h2>
                 <div className='w-3/5  mt-12 mb-24  mx-auto' >
 
-                    <form >
+                    <form onSubmit={handleSignUp}>
                         <label className='pl-4 text-gray-400 font-bold' htmlFor="">Name</label>
                         <input type="text" name='name' placeholder="Your name" className="input bg-gray-100  w-full mb-6 max-auto" />
                         <br />

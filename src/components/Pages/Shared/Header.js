@@ -1,9 +1,10 @@
 import React from 'react';
+import '../Home/DepartmentCard.css'
 import { Link } from 'react-router-dom';
 import logo1 from '../../../images/logo/logo1.png'
 const Header = () => {
     return (
-        <div className='sticky top-0' >
+        <div className='sticky top-0 ' >
             <div className="navbar  bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">

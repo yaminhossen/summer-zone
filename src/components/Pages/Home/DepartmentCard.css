@@ -1,0 +1,30 @@
+.framee {
+    overflow: hidden;
+}
+
+.showw {
+    display: none;
+}
+
+.framee:hover .showw {
+    display: block;
+    margin-top: -200px;
+}
+
+.framee:hover .butonn {
+    display: block;
+    color: black;
+    margin-bottom: 100px;
+}
+
+.framee:hover .imagee {
+    transform: scale(1.2);
+    transition: transform .5s ease-in-out;
+    /* background-color: slategray; */
+    /* overflow: hidden; */
+}
+
+.framee:hover .butonn {
+    transform: scale(1);
+    transition: transform .5s ease-in-out;
+}

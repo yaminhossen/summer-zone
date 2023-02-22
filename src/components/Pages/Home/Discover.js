@@ -5,9 +5,9 @@ import discover2 from '../../../images/discover/discover (2).png'
 import DiscoverItem from './DiscoverItem';
 
 const items = [
-    { id: 1, title: 'Explore new arrivals', info: 'Shop the latest from top brands', img: discover1, bgClass: 'bg-pink-100' },
-    { id: 2, title: 'Digital gift cards', info: 'Give the gift of choice', img: discover2, bgClass: 'bg-red-100' },
-    { id: 3, title: 'Sale collection', info: 'Up to 80% off retail', img: tshirt, bgClass: 'bg-yellow-100' },
+    { id: 1, title: 'Explore new arrivals', info: 'Shop the latest from top brands', img: discover1, bgClass: 'bg-pink-100', bgClass1: 'pink-200' },
+    { id: 2, title: 'Digital gift cards', info: 'Give the gift of choice', img: discover2, bgClass: 'bg-red-100', bgClass1: 'red-200' },
+    { id: 3, title: 'Sale collection', info: 'Up to 80% off retail', img: tshirt, bgClass: 'bg-yellow-100', bgClass1: 'red-200' },
 ]
 const Discover = () => {
 

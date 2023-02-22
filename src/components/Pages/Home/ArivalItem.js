@@ -1,11 +1,23 @@
 import React from 'react';
+import './ArivalItem.css'
 
 const ArivalItem = ({ arrive }) => {
     const { img, name, info, price, bgClass } = arrive;
     return (
         <div>
-            <div className={`h-96 p-8 flex justify-center rounded-3xl ${bgClass}`}>
-                <img className=' p-' src={img} alt="" />
+            <div className='frame rounded-3xl'>
+                <div className={` h-96 p-8  flex justify-center rounded-3xl ${bgClass}`}>
+                    <img className='image ' src={img} alt="" />
+
+                </div>
+                <div className='h-96 info w-full rounded-3xl'>
+                    <div className='h-44 bg-red-300 flex justify-center pt-28 rounded-t-3xl bg-opacity-30'>
+                        <button className='btn md:btn-md lg:btn-md bg-gray-200 border-none text-black hover:text-white hover:font-bold'>Buy Now</button>
+                    </div>
+                    <div className='h-44 bg-red-300 flex justify-center  rounded-b-3xl mt-8 bg-opacity-30'>
+                        <button className='btn md:btn-md lg:btn-md bg-gray-200 border-none text-black hover:text-white hover:font-bold mt-4'>Add to cart</button>
+                    </div>
+                </div>
             </div>
             <div className='pl-4'>
                 <h3 className=' text-2xl text-slate-700 font-bold mt-6'>{name}</h3>

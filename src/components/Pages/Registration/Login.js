@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
 import auth from '../../../firebase.init';
 import Loading from '../Shared/Loading';
 import SocialLogin from './SocialLogin';
@@ -15,8 +15,10 @@ const Login = () => {
     ] = useSignInWithEmailAndPassword(auth);
 
     const navigate = useNavigate();
+    const location = useLocation();
+    const from = location.state?.from?.pathname || '/';
     if (user) {
-        navigate('/')
+        navigate(from, { replace: true });
     }
     if (error) {
         signInError = <p className='text-red-400'>{error.message}</p>

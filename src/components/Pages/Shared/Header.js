@@ -2,7 +2,14 @@ import React from 'react';
 import '../Home/DepartmentCard.css'
 import { Link } from 'react-router-dom';
 import logo1 from '../../../images/logo/logo1.png'
+import auth from '../../../firebase.init';
+import { useAuthState } from 'react-firebase-hooks/auth';
+import { signOut } from 'firebase/auth';
 const Header = () => {
+    const [user] = useAuthState(auth);
+    const handleSignOut = () => {
+        signOut(auth);
+    }
     return (
         <div className='sticky top-0 ' >
             <div className="navbar  bg-base-100">
@@ -23,12 +30,6 @@ const Header = () => {
                             <li><Link to="/beauty">Beauty</Link></li>
                         </ul>
                     </div>
-                    {/* <div className='my-4'>
-                        <div className='lg:ml-28 ml-2 flex items-center'>
-                            <div><img className='w-7' src={logo1} alt="" /></div>
-                            <div className='font-bold pl-1 text-xl'>Summer-zone</div>
-                        </div>
-                    </div> */}
                     <Link to="/" className='my-4'>
                         <div className='lg:ml-28 ml-2 flex items-center'><div><img className='w-7' src={logo1} alt="" /></div>
                             <div className='font-bold pl-1 text-xl'>Summer-zone</div></div>
@@ -48,17 +49,13 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className="navbar-end lg:mr-24">
-                    {/* <a className="pr-8"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
-                    </svg>
+                    {
+                        user ?
+                            <button className='pr-8 font-bold text-slate-500' onClick={handleSignOut}>SignOut</button>
+                            :
+                            <Link className='pr-8 font-bold text-slate-500' to="/login">Login</Link>
+                    }
 
-                    </Link> */}
-                    {/* <a className="pr-8"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
-                    </svg>
-
-                    </Link> */}
-                    <Link className='pr-8 font-bold text-slate-500' to="/login">Login</Link>
                     <Link to="/dashboard" className=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8 ">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
                     </svg>

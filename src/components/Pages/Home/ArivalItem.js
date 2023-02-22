@@ -1,5 +1,6 @@
 import React from 'react';
 import './ArivalItem.css'
+import { Link } from 'react-router-dom';
 
 const ArivalItem = ({ arrive }) => {
     const { img, name, info, price, bgClass } = arrive;
@@ -12,7 +13,7 @@ const ArivalItem = ({ arrive }) => {
                 </div>
                 <div className='h-96 info w-full rounded-3xl'>
                     <div className='h-44 bg-red-300 flex justify-center pt-28 rounded-t-3xl bg-opacity-30'>
-                        <button className='btn md:btn-md lg:btn-md bg-gray-200 border-none text-black hover:text-white hover:font-bold'>Buy Now</button>
+                        <Link to="/dashboard" className='btn md:btn-md lg:btn-md bg-gray-200 border-none text-black hover:text-white hover:font-bold'>Buy Now</Link>
                     </div>
                     <div className='h-44 bg-red-300 flex justify-center  rounded-b-3xl mt-8 bg-opacity-30'>
                         <button className='btn md:btn-md lg:btn-md bg-gray-200 border-none text-black hover:text-white hover:font-bold mt-4'>Add to cart</button>

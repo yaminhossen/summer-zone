@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import kids from '../../../images/banner/kids1-removebg-preview.png'
 import './Exploring.css'
 const KidsOffer = () => {
@@ -23,7 +24,7 @@ const KidsOffer = () => {
                     <h3 className='font-bold text-6xl'>Special offer in kids products</h3>
                     <h3 className='font-bold text-slate-500 my-8 '>Fashion is a farm of self-expression and autonomy at a particular period and place.Here have all the exclusive garments.</h3>
                     <div className='flex justify-between'>
-                        <button className='btn'>Discover more</button>
+                        <Link to="/allItem" className='btn'>Discover more</Link>
                         <div className='flex justify-between w-2/4'>
                             <div className="circle mt-6"></div>
                             <div className="circle2 mt-12"></div>

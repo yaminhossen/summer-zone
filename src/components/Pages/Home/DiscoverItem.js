@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const DiscoverItem = ({ item }) => {
     const { img, title, info, bgClass, bgClass1 } = item;
     return (
-        <div className={`flex  p-8 rounded-xl ${bgClass}   hover:bg-amber-200`} >
+        <div className={`flex  p-8 rounded-xl ${bgClass}   hover:bg-amber-100`} >
             <div className={`w-3/6`}>
                 <h3>{title}</h3>
                 <h2 className='text-2xl font-bold'>{info}</h2>

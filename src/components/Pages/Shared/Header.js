@@ -52,13 +52,13 @@ const Header = () => {
                 <div className="navbar-end lg:mr-24">
                     {
                         user ?
-                            <button className='pr-8 font-bold text-slate-500' >{user?.email}</button>
+                            <button className='pr-8 font-semibold text-blue-500' >login by {user?.email}</button>
                             :
-                            <Link className='pr-8 font-bold text-slate-500' to="/login">Jai ni</Link>
+                            <></>
                     }
                     {
                         user ?
-                            <button className='pr-8 font-bold text-slate-500' onClick={handleSignOut}>SignOut</button>
+                            <button className='pr-8 font-bold text-slate-500' onClick={handleSignOut}>LogOut</button>
                             :
                             <Link className='pr-8 font-bold text-slate-500' to="/login">Login</Link>
                     }

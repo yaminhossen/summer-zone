@@ -11,7 +11,7 @@ const AllItem = ({ item }) => {
                     <img src={img} alt="" />
                 </div>
                 <div className='button3 flex justify-between p-2'>
-                    <Link to="/dashboard" className='btn' >Add to Cart</Link>
+                    <Link to="" className='btn' >Add to Cart</Link>
                     <Link to="/dashboard" className='btn'>Buy Now</Link>
 
                 </div>

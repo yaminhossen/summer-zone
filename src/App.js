@@ -9,6 +9,7 @@ import Dashboard from './components/Pages/Dashboard/Dashboard';
 import AllItems from './components/Pages/Home/AllItems';
 import ScrollToTop from './components/Pages/Home/ScrollToTop';
 import RequirAuth from './components/Pages/RequirAuth/RequirAuth';
+import ExpertDetails from './components/Pages/Home/ExpertDetails';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path='/beauty' element={<AllItems></AllItems>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/signup' element={<SignUp></SignUp>}></Route>
+        <Route path='/expertdetails' element={<ExpertDetails></ExpertDetails>}></Route>
         <Route path='/dashboard' element={
           <RequirAuth>
             <Dashboard></Dashboard>

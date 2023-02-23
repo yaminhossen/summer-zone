@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 const ExpertItem = ({ item }) => {
     const navigate = useNavigate();
     const handleNavigate = () => {
-        navigate('/allItem');
+        navigate('/expertdetails');
     }
     const { img1, img2, img3, img4, color, name, price } = item;
     return (

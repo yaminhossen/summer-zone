@@ -10,6 +10,7 @@ import AllItems from './components/Pages/Home/AllItems';
 import ScrollToTop from './components/Pages/Home/ScrollToTop';
 import RequirAuth from './components/Pages/RequirAuth/RequirAuth';
 import ExpertDetails from './components/Pages/Home/ExpertDetails';
+import NotFound from './components/Pages/NotFound/NotFound';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
             <Dashboard></Dashboard>
           </RequirAuth>
         }></Route>
+        <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
     </div>

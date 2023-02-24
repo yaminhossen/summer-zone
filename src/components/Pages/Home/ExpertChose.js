@@ -13,9 +13,9 @@ import bag3 from '../../../images/expert/vanity (3).png'
 import bag4 from '../../../images/expert/vanity (4).png'
 
 const expertItems = [
-    { id: 1, name: 'Suede Bomber Jacket', color: 'Orange', price: 52, img1: jacket1, img2: jacket2, img3: jacket3, img4: jacket1 },
-    { id: 1, name: 'Suede Bomber Jacket', color: 'Orange', price: 52, img1: shoe1, img2: shoe2, img3: shoe3, img4: shoe4 },
-    { id: 1, name: 'Suede Bomber Jacket', color: 'Orange', price: 52, img1: bag1, img2: bag2, img3: bag3, img4: bag4 },
+    { id: 1, name: 'Suede Bomber Jacket', color: 'Red & Blue', price: 52, img1: jacket1, img2: jacket2, img3: jacket3, img4: jacket1 },
+    { id: 1, name: 'Sustainable Export Shoe', color: 'Ash and Green', price: 52, img1: shoe1, img2: shoe2, img3: shoe3, img4: shoe4 },
+    { id: 1, name: 'Gourgeous Vanity Bag', color: 'Golden', price: 52, img1: bag1, img2: bag2, img3: bag3, img4: bag4 },
 ]
 const ExpertChose = () => {
     return (

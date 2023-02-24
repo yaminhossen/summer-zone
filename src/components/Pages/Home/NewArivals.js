@@ -5,10 +5,10 @@ import arival1 from '../../../images/explore/arrival (1).png'
 import arival2 from '../../../images/explore/arrrval2.png'
 import arival3 from '../../../images/explore/arrival3.png'
 const arrialItems = [
-    { id: 1, name: 'Leather Gloves', info: 'Perfect mint green', price: 42, img: explore2, bgClass: 'bg-yellow-100' },
-    { id: 2, name: 'Boys Tshirt', info: 'Perfect mint green', price: 52, img: arival1, bgClass: 'bg-red-100' },
-    { id: 3, name: 'Owesome Polo Shirt', info: 'Perfect mint green', price: 72, img: arival2, bgClass: 'bg-purple-100' },
-    { id: 4, name: 'Boys Comfort Shorts', info: 'Perfect mint green', price: 92, img: arival3, bgClass: 'bg-yellow-100' },
+    { id: 1, name: 'Black T-Shirt', info: 'Comfort matte black', price: 42, img: explore2, bgClass: 'bg-yellow-100' },
+    { id: 2, name: 'Black & Red Casual Belt', info: 'Black and Red combo package', price: 52, img: arival1, bgClass: 'bg-red-100' },
+    { id: 3, name: 'Black Smart Watch', info: 'Perfect matching black', price: 72, img: arival2, bgClass: 'bg-purple-100' },
+    { id: 4, name: 'Perfect Sunglasses', info: 'Golden color sunglasses', price: 92, img: arival3, bgClass: 'bg-yellow-100' },
 
 ]
 const NewArivals = () => {

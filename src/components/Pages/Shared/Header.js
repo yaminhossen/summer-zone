@@ -32,7 +32,7 @@ const Header = () => {
                         </ul>
                     </div>
                     <Link to="/" className='my-4'>
-                        <div className='lg:ml-28 ml-2 flex items-center'><div><img className='w-7' src={logo1} alt="" /></div>
+                        <div className='lg:ml-28 ml-2 flex items-center'><div><img className='w-10 mr-3' src={logo1} alt="" /></div>
                             <div className='font-bold pl-1 text-xl'>Summer-zone</div></div>
                     </Link>
                 </div>

@@ -122,12 +122,12 @@ const ExpertDetails = () => {
                             <div>
                                 <div>
                                     <h2 className='my-4 font-bold'>Size: lg</h2>
-                                    <div className='flex'>
-                                        <p className='ring-2 hover:ring-0  ring-slate-400 py-1 mr-2 px-6 rounded font-bold cursor-pointer border-none  hover:bg-blue-500 hover:text-white'>s</p>
-                                        <p className=' hover:ring-0  ring-slate-400 ring-2 py-1 mr-2 px-6 rounded font-bold cursor-pointer hover:bg-blue-500 hover:text-white'>md</p>
-                                        <p className=' hover:ring-0  ring-slate-400 ring-2 py-1 mr-2 px-6 rounded font-bold cursor-pointer hover:bg-blue-500 hover:text-white'>lg</p>
-                                        <p className=' hover:ring-0  ring-slate-400 ring-2 py-1 mr-2 px-6 rounded font-bold cursor-pointer hover:bg-blue-500 hover:text-white'>xl</p>
-                                        <p className=' hover:ring-0  ring-slate-400 ring-2 py-1 mr-2 px-6 rounded font-bold cursor-pointer hover:bg-blue-500 hover:text-white'>xxl</p>
+                                    <div className='flex flex-wrap gap-4'>
+                                        <p className='ring-2 hover:ring-0  ring-slate-400 py-1  px-6 rounded font-bold cursor-pointer border-none  hover:bg-blue-500 hover:text-white'>s</p>
+                                        <p className=' hover:ring-0  ring-slate-400 ring-2 py-1  px-6 rounded font-bold cursor-pointer hover:bg-blue-500 hover:text-white'>md</p>
+                                        <p className=' hover:ring-0  ring-slate-400 ring-2 py-1  px-6 rounded font-bold cursor-pointer hover:bg-blue-500 hover:text-white'>lg</p>
+                                        <p className=' hover:ring-0  ring-slate-400 ring-2 py-1  px-6 rounded font-bold cursor-pointer hover:bg-blue-500 hover:text-white'>xl</p>
+                                        <p className=' hover:ring-0  ring-slate-400 ring-2 py-1  px-6 rounded font-bold cursor-pointer hover:bg-blue-500 hover:text-white'>xxl</p>
 
 
                                     </div>
